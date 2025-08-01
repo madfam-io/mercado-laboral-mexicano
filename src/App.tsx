@@ -25,25 +25,25 @@ const AppContent: React.FC = () => {
         </ErrorBoundary>
 
         <ErrorBoundary>
-          <ChartContainer title={t.charts.industriesTitle}>
+          <ChartContainer id="industries" title={t.charts.industriesTitle}>
             <IndustryChart />
           </ChartContainer>
         </ErrorBoundary>
 
         <ErrorBoundary>
-          <ChartContainer title={t.charts.regionsTitle}>
+          <ChartContainer id="regions" title={t.charts.regionsTitle}>
             <RegionalChart />
           </ChartContainer>
         </ErrorBoundary>
 
         <ErrorBoundary>
-          <ChartContainer title={t.charts.careersTitle}>
+          <ChartContainer id="careers" title={t.charts.careersTitle}>
             <TechCareerChart />
           </ChartContainer>
         </ErrorBoundary>
 
         <ErrorBoundary>
-          <ChartContainer title={t.charts.educationTitle}>
+          <ChartContainer id="salaries" title={t.charts.educationTitle}>
             <EducationChart />
           </ChartContainer>
         </ErrorBoundary>

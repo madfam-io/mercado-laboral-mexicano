@@ -5,6 +5,7 @@ interface ChartContainerProps {
   title: string;
   children: ReactNode;
   className?: string;
+  id?: string;
 }
 
 const ChartFallback = () => (
@@ -22,10 +23,11 @@ const ChartFallback = () => (
 export const ChartContainer: React.FC<ChartContainerProps> = ({
   title,
   children,
-  className = ''
+  className = '',
+  id
 }) => {
   return (
-    <section className={`py-16 px-4 ${className}`}>
+    <section id={id} className={`py-16 px-4 ${className}`}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
           {title}
