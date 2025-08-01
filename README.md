@@ -1,6 +1,6 @@
 # 🇲🇽 Mexico Salary Analysis 2025
 
-**Live Demo:** [https://YOUR_USERNAME.github.io/YOUR_REPONAME/](https://YOUR_USERNAME.github.io/YOUR_REPONAME/)
+**Live Demo:** [https://madfam-io.github.io/mercado-laboral-mexicano/](https://madfam-io.github.io/mercado-laboral-mexicano/)
 
 A fully responsive, interactive Single Page Application (SPA) that provides a comprehensive analysis of the Mexican job market for 2025. This dashboard visualizes salary data across various industries, regions, career levels, and education levels.
 
@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPONAME.git](https://github.com/YOUR_USERNAME/YOUR_REPONAME.git)
+    git clone [https://madfam-io.github.io/mercado-laboral-mexicano/](https://madfam-io.github.io/mercado-laboral-mexicano/)
     cd YOUR_REPONAME
     ```
 
