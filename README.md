@@ -28,8 +28,8 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://madfam-io.github.io/mercado-laboral-mexicano/](https://madfam-io.github.io/mercado-laboral-mexicano/)
-    cd YOUR_REPONAME
+    git clone https://github.com/madfam-io/mercado-laboral-mexicano
+    cd mercado-laboral-mexicano
     ```
 
 2.  **Install dependencies:**
